@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.App{
+font-family: sans-serif;
+text-align: center;
+}
+.lobby{
+    padding: 100px;
+    margin-left: -40px;
+}
+.title{
+    font-size: 2rem;
+}
+.logo{
+    height: 300px;
+    width: 120px;
+    margin-left: 320px;
+    margin-top: -50px;
+}
+.p_title{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 0 10px;
+    margin: 0;
+}
+.button_next{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    background: #40ff2f;
+    color: #fff;
+    font-size: 17px;
+    margin-left: -50px;
+}   
+.input_lobby{
+    margin-top: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 19px;
+    color: grey;
+    box-shadow: -10px -10px 15px rgba(58,58,58,.09019607843137255), 10px 10px 15px rgba(66,66,66,.34901960784313724);
+    transition: .5s;
+    padding: 10px 55px 10px 15px;
+    height: 35px; 
+}
+.pokedex_title{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    font-size: 2.9rem;
+    padding-top: 50px;
+    margin-left: 30px;
+    text-align: left;
+} 
+.p_title_pokedex{
+    text-align: left;
+    padding: 10px 0 40px 30px;
+    font-size: 1.1rem;
+}
+.input_pokedex{
+    width: 350px;
+    height: 50px;
+    border: transparent;
+    box-shadow: -10px -10px 15px rgba(58,58,58,.09019607843137255), 10px 10px 15px rgba(66,66,66,.34901960784313724);
+    border-radius: 30px;
+    font-size: 19px;
+    padding-left: 20px;
+    color: grey;
+    transition: .5s;
+    margin-bottom: 20px;
+  
+}
+.button_pokedex{
+   width: 30px;
+   height: 40px;
+   border: none;
+   background: transparent;
+   font-size: 1.6rem;
+   margin-left: -40px;
+}
+.card{
+    width: 280px;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    height: 300px;
+    text-shadow: 0 0 1.4px #000;  
+    border: solid #40ff2f;
+    box-shadow: -10px -10px 15px rgba(58,58,58,.09019607843137255), 10px 10px 15px rgba(66,66,66,.34901960784313724);
+   margin-top: 15px;
+   background: #40ff2f;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 100ms linear;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.img_card{
+    display: flex;
+   width: 200px;
+   max-height: 150px;
+   margin-left: 80px;
+ 
+}
+.p_card{
+   background: rgb(170, 192, 196);
+   border:solid 0.5px #fff;
+    border-radius: 30px;
+    width: 100px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.list{   
+    color: #fff;
+    display:inline;
+}
+.link{
+    text-decoration: none;   
+}
+
+.button_page{
+    background: #6c79db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    outline: 0;
+    transition: .2s;
+    color: #fff;
+    box-shadow: 2px 2px 8px grey;
+    display: inline;
+    margin-top: 20px;
+    border: none;
+}
+.button_pages{
+   width: 40px;
+   height: 40px;
+   margin: 5px;
+   background-color: #6c79db;
+   border-radius: 50%;
+   border: none;
+   text-align: center;
+   box-shadow: 2px 2px 8px grey;
+   cursor: pointer;
+   color: #fff;
+    
+}
+
+.pokemon{
+margin-left: 400px;
+justify-content: center;
+background: #fff;
+width: 500px;
+
+}
+.pk_info{
+    background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/98/67/9b3Pr6.jpg);
+    color: black;
+    height: 100vh;
+    padding-top: 200px;
+    box-shadow: -10px -10px 15px rgba(58,58,58,.09019607843137255), 10px 10px 15px rgba(66,66,66,.34901960784313724);
+
+    
+}
+.p_poke_info{
+    display: inline-flex;
+    padding: 20px;
+    margin-top: 10px;
+    padding-left: 50px;
+    margin-left: -10px;
+    height: 150px;
+}
+.img_poke_info{
+    margin-top: -150px;
+}
